@@ -1,0 +1,12 @@
+{
+    "strict-ssl": false,
+    "scripts": {
+        "postinstall": "gulp inject_bower_scripts"
+    },
+    "registry": {
+        "search": [
+            "http://10.129.146.62:81/bower/Bower",
+            "https://bower.herokuapp.com"
+        ]
+    }
+}
